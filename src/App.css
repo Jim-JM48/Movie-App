@@ -1,0 +1,12 @@
+:root {
+  --bg-color: #2A2A2A;
+  --bg-color-2: #101828;
+}
+
+#root {
+  margin: 0 auto;
+  background-color: var(--bg-color);
+  min-height: 100dvh;
+}
+
+

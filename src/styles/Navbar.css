@@ -1,0 +1,11 @@
+#icon {
+    cursor: pointer;
+
+    &:hover {
+        color: var(--color-rose-500);
+    }
+}
+
+#list a.active {
+    color: var(--color-red-500);
+}
