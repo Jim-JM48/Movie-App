@@ -1,6 +1,6 @@
 # Demo
 
-Live Website : [Demo](https://ecommerce-app-kappa-five.vercel.app/)
+Live Website : [Demo](https://movie-app-beta-cyan.vercel.app/)
 
 # MovieApp
 
