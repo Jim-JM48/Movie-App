@@ -17,7 +17,7 @@ const DataProvider = ({children}) => {
           const response = await axios.get(url,{
             params : {
               i : title,
-              apikey : Env.ApiKey
+              apikey : import.meta.env.VITE_API_KEY
             },
           })
           return {
