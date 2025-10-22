@@ -4,10 +4,10 @@ import XIcon from '@mui/icons-material/X';
 
 export default function Footer() {
   return (
-    <footer className="bg-teal-700 py-4 text-stone-900 col-span-12">
+    <footer className="bg-amber-400 py-4 text-stone-950 col-span-12">
       <div className="flex items-center flex-col gap-2">
           <div className="flex space-x-4 border-b">
-            <h2 className="text-xl font-bold mb-1">Movies</h2>
+            <h2 className="text-xl font-bold mb-1 hover:text-white cursor-pointer">Movies</h2>
             <span className="hover:text-white"><LinkedInIcon/></span>
             <span className="hover:text-white"><GitHubIcon/></span>
             <span className="hover:text-white"><XIcon/></span>
