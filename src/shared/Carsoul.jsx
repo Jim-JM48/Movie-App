@@ -53,7 +53,7 @@ export default function Carsoul() {
         />
       )}
       {process && (
-        <div id="cover" style={imageStyle} className="relative min-h-80">
+        <div id="cover" style={imageStyle} className="relative min-h-96">
           <Arrow left="true" change={() => changeCover.prevCover()} />
             <div className="flex absolute bottom-1/6 left-1/12 gap-8">
               <Button

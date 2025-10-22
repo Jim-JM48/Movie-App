@@ -30,8 +30,8 @@ export default function Genre() {
   if (Categories.includes(categoryId)) {
     return (
       <>
-        <div className="p-4 text-amber-400 text-2xl">Genre {categoryId} :</div>
-        <div className="flex flex-wrap justify-evenly gap-y-4 my-4">
+        <div className="p-4 text-amber-400 text-2xl text-center">Genre {categoryId}</div>
+          <div className="flex flex-wrap justify-evenly gap-y-4 my-4">
           {!isError && (
             genre.map((mov, index) => {
               return (

@@ -9,7 +9,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import SettingsIcon from '@mui/icons-material/Settings';
 import '../styles/Navbar.css';
 
-export default function Navbar() {
+export default function Navbar(props) {
 
   const [counter ,setCounter] = useState(0);
 
@@ -43,9 +43,10 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="px-3 py-3 w-full right-0 z-10 bg-stone-900">    
-        <ul id="list" className="me-4 space-x-5 flex text-neutral-400">
-            <SettingsIcon id="icon" fontSize='large'/>
+    <nav className="px-3 py-3 w-full right-0 z-10 bg-stone-900 vs:max-md:fixed">    
+        <ul id="list" className="me-4 space-x-5 flex items-center text-neutral-400">
+            <SettingsIcon onClick={() => props.setsidebar(!props.sidebar)} id="icon" fontSize='large'/>
+            <span className="text-xl font-bold text-rose-600 ms-auto">MOVIES</span>
             <div className='ml-auto space-x-4'>
               <NavLink to="/">
                 <HomeIcon id="icon" fontSize='large'/>
